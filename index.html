@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikash Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+  </head>
+<body class="color">
+    <nav class="navbar navbar-expand-lg  bg-secondary-subtle">
+        <div class="container-fluid">
+          <img src="Images/Bikash.png" alt="Bikash">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse  d-flex justify-content-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" id="resumeButton">Resume</a>
+              <a class="nav-link" href="#aboutMe">About Me</a>
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                  <div class="socialMedia">
+                      <a href="https://facebook.com/"><img src="Images/facebook.png" alt="facebook"></a>
+                      <a href="https://github.com/"><img src="Images/git.png" alt="Git"></a>
+                      <a href="https://mail.google.com/"><img src="Images/Gmail.png" alt="Gmail"></a>
+                  </div>
+                    <p class="infobar">I'm a software developer <br> Bikash Shiwakoti</p>
+                    <p>I am from Nepal and very enthuistics in software. It gives me 
+                        hope to create new things.
+                    </p>
+              </div>
+              <div class="col">
+                <img src="Images/coding.jpeg" alt="Profile">
+              </div>
+            </div>
+          </div>
+          <section id="aboutMe" >
+                <div class="container">
+                   <div class="row">
+                     <div class="col">
+                      <img src="Images/Bika.jpg" alt="Profile">
+
+                    </div>
+                <div class="col">
+                  
+                  <p class="info text-success">About Me</p>
+                  <p>Hi, I'm Bikash Shiwakoti, a Software Support – Computer Systems Technician student at Mohawk College in Hamilton, ON.
+                    I'm passionate about web development and creating innovative solutions. With experience in JavaScript, HTML, and CSS,
+                    I thrive in collaborative environments and enjoy tackling challenges head-on. Outside of coding,
+                    I'm involved in community initiatives and love staying active through sports. Excited about opportunities in the IT industry!
+                </p>
+                <p class="text-start text-danger"><strong> Here is a list of the technologies and languages that I'm familiar with!</strong></p>
+                <ul>
+                  <div class="container text-center">
+                    <div class="row">
+                      <div class="col">
+                        <li>	Java  </li>       
+                    <li> JavaScript </li>	       
+                    <li> HTML & CSS </li>	     
+                    <li>  SQL </li>	                                       
+                  </div>
+                  <div class="col">
+                        <li>  .NET </li>	
+                        <li> PHP </li>	
+                        <li> Github </li>
+                        <li> Bootstrap </li>
+                      </div>
+                    </div>
+                  </div>                                          
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="projects">
+     
+          
+            <h3 class="text-center mb-5">Projects</h3>
+               <div class="video">
+                <a href="https://www.youtube.com/watch?v=LszMfjZhMH0"><img src="Images/snake.png" alt="Snake Game"></a>
+                <div id="overlap">
+                <h4>Snake Game</h4><br>
+                <p>This a simple snake game video presentation that I have made using HTML, CSS and JS.
+                  I have used the canvas element to draw the snake and the food. The snake is controlled by the arrow keys.
+                  The game will be over if the snake hits the wall or itself. The score will be displayed on the top right corner of the screen.
+                </p>
+                </div>
+               </div>
+               <div class="shop">
+                <img src="Images/Eshop.png" alt="Online Shop">
+                <div id="shopoverlap">
+                <h4>Online Shop</h4><br>
+                <p>This is a simple online shop website that I have made using HTML, CSS, JS and PHP. 
+                  The website has a home page, books page, about us page and contact page. The website is responsive and can be viewed on any device.
+                  The website has a simple shopping cart that can be used to add and remove items from the cart.
+                </div>
+               </div>
+              
+        </section>
+          <section id="contact">
+            <div class="container bg-secondary-subtle">
+              <h3>Contact Me</h3>
+              <p class="text-center">Feel free to reach out to me with any questions or inquiries.</p>
+             <p class="text-center">
+              Email: <a href="mailto:bikash.shiwakoti@mohawkcollege.ca" style="text-decoration: none;">bikash.shiwakoti@mohawkcollege.ca
+                </a><br>
+                Phone: 437-799-2057 <br>
+                Location: Hamilton, ON <br>
+             </p>
+            </div>
+          </section>
+      </main>
+
+      <footer>
+        <p>© 2024 Bikash. All Rights Reserved.</p>
+        <div class="animated-text text-info">Designed by Bikash</div>
+      </footer>
+</body>
+<script>
+  document.getElementById('resumeButton').addEventListener('click', function() {
+      window.open("Resume.docx", '_blank');
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+</html>

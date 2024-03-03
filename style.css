@@ -1,0 +1,182 @@
+.color{
+    background-color: rgb(119, 203, 212);
+}
+
+.nav-link {    
+    border: 3px solid green;
+    margin: 2vh;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px 0.1px red;
+}
+ img {
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px 0.1px red;
+   
+}
+
+
+.info{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: rgb(110, 106, 112);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+    margin-left: 150px;
+    font-weight:bolder;
+}
+.infobar{
+    margin-top: 190px;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+h2{
+    padding: 15px;
+    color: yellowgreen;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #00000051;
+    align-items: center;
+}
+#aboutMe{
+    margin-top: 30vh;
+    text-align: start;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+ 
+  ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc; 
+    color: #0e4005;
+  }
+  
+
+  h3{
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+
+  }
+  #contact {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 30vh;
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards; 
+  }
+
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+ 
+ 
+  #projects{
+    margin-top: 30vh;
+    margin-bottom: 2vh;
+  }
+
+  img {
+    transition: transform 0.3s ease; 
+  }
+
+  
+img:hover {
+    transform: scale(1.1); 
+  }
+
+  .video{
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h4{
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(39, 11, 163, 0.8);
+
+  }
+
+  #overlap{
+    margin-top: 4vh;
+    width: 90vh;
+    position: absolute; 
+    top: 240%; 
+    left: 76%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    background-color: rgba(236, 133, 133, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .shop{
+    margin-top: 30vh;
+    display: flex;
+   margin-left: 20%;
+  }
+  #shopoverlap{
+    margin-top: 4vh;
+    width: 90vh;
+    position: absolute; 
+    top: 322%; 
+    left: 60%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    background-color: rgba(130, 87, 224, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  footer {
+    background-color: #333;
+    color: rgb(175, 130, 63);
+    padding: 20px 0;
+    text-align: center;
+  }
+ 
+
+  .animated-text {
+    color: #0e4005;
+    display: inline-block;
+    font-size: 24px;
+    animation: slideIn 2s ease infinite alternate; 
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateY(-20px); 
+      opacity: 0; 
+    }
+    to {
+      transform: translateY(0); 
+      opacity: 1; 
+    }
+  }
+  #resumeButton{
+    cursor:pointer;
+  }
+
+  
